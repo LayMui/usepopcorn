@@ -58,8 +58,8 @@ function Star({onRate, full, onHoverIn, onHoverOut, color, size}) {
     return (
         <span role='button' style={starStyle} 
         onClick={onRate} 
-        onMouseEnter={() => onHoverIn}
-        onMouseLeave={() => onHoverOut}
+        onMouseEnter={onHoverIn}
+        onMouseLeave={onHoverOut}
         color={color}
         size={size}
         >
